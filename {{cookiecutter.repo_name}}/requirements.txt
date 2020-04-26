@@ -1,0 +1,25 @@
+# NLP + ML stuff
+torch>=1.3.1
+tensorboard>=1.14.0
+torchvision
+#cudatoolkit>=10.0
+tqdm
+numpy
+scipy
+matplotlib
+pandas
+jupyter
+spacy
+
+dataclasses==0.6
+dataclasses-json==0.4.1
+
+# dev tools
+pytest
+flake8
+rope
+autopep8
+black
+pyyaml
+click
+future
