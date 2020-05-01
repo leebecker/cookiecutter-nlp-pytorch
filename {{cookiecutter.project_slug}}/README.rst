@@ -1,6 +1,6 @@
-{{ cookiecutter.repo_name|count * "=" }}
-{{ cookiecutter.repo_name }}
-{{ cookiecutter.repo_name|count * "=" }}
+{{ cookiecutter.project_slug|count * "=" }}
+{{ cookiecutter.project_slug }}
+{{ cookiecutter.project_slug|count * "=" }}
 PyTorch deep learning project made easy.
 
 .. contents:: Table of Contents
@@ -11,7 +11,7 @@ Folder Structure
 
 ::
 
-  {{ cookiecutter.repo_name }}/
+  {{ cookiecutter.project_slug }}/
   │
   ├── {{ cookiecutter.package_name }}/
   │    │

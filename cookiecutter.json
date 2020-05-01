@@ -1,7 +1,7 @@
 {
-    "repo_name": "my-repo-name",
-    "package_name": "{{ cookiecutter.repo_name.lower().replace(' ', '_').replace('-', '_') }}",
-    "virtualenv_name": "{{ cookiecutter.repo_name.lower().replace('-', '_') }}_venv",
+    "project_slug": "my-project-slug",
+    "package_name": "{{ cookiecutter.project_slug.lower().replace(' ', '_').replace('-', '_') }}",
+    "virtualenv_name": "{{ cookiecutter.project_slug.lower().replace('-', '_') }}_venv",
     "workon_home": "~/venvs",
     "python_interpreter": "python3.6",
     "author_name": "Lee Becker",
@@ -9,5 +9,5 @@
     "github_username": "leebecker",
     "package_version": "0.0.1",
     "package_description": "Short description",
-    "package_url": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}"
+    "package_url": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}"
 }

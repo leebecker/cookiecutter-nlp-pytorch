@@ -3,7 +3,7 @@
 #################################################################################
 
 PROJECT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
-PROJECT_NAME = {{ cookiecutter.repo_name }}
+PROJECT_NAME = {{ cookiecutter.project_slug }}
 PYTHON_INTERPRETER = {{ cookiecutter.python_interpreter }}
 VIRTUALENVWRAPPER_PATH:=$(shell which virtualenvwrapper.sh)
 
